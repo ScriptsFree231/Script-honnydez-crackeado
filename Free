@@ -43,7 +43,7 @@ titleBar.Parent = mainFrame
 local titleButton = Instance.new("TextButton")
 titleButton.Size = UDim2.new(1,0,1,0)
 titleButton.BackgroundTransparency = 1
-titleButton.Text = "HONNY KILLS CRACKEADO BY Havoc and DTH"  -- AquÃ­ cambiamos el texto por "HONNY KILLS"
+titleButton.Text = "HONNY KILLS CRACKED"
 titleButton.TextColor3 = Color3.fromRGB(255,255,255)  -- Letras blancas
 titleButton.Font = Enum.Font.GothamBold
 titleButton.TextSize = 20
@@ -379,7 +379,7 @@ end)
 
 
 buttons["Activar pegar muerto"].MouseButton1Click:Connect(function()
-    local url = "https://raw.githubusercontent.com/PheonixHub/ScripKillPaid/refs/heads/main/Auto%20matar"
+    local url = "https://raw.githubusercontent.com/PheonixHub/ñ/refs/heads/main/Auto%20matar"
     local success, response = pcall(function()
         return game:HttpGet(url)
     end)
