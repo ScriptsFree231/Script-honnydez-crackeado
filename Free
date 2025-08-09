@@ -379,7 +379,7 @@ end)
 
 
 buttons["Activar pegar muerto"].MouseButton1Click:Connect(function()
-    local url = "https://raw.githubusercontent.com/PheonixHub/ñ/refs/heads/main/Auto%20matar"
+    local url = "https://raw.githubusercontent.com/ScriptsFree231/Kill-all-crackeado-/refs/heads/main/DTH"
     local success, response = pcall(function()
         return game:HttpGet(url)
     end)
